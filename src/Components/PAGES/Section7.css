@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container7 {
+    height: 550px;
+    background-color: white;
+}
+
+.heading-center {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.customer-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    margin: 20px 50px;
+}
+
+.customer-card {
+    width: 360px;
+    height: 340px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 8px;
+    transition: all ease 0.8s;
+
+
+}
+
+.customer-card:hover {
+    box-shadow: 0px 1px 15px rgb(154, 36, 36);
+    transition: all ease 0.8s;
+    transform: scale(1.1);
+}
+
+.customer-card h1 {
+    font-size: 22px;
+    color: brown;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.customer-para {
+    width: 330px;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.line {
+    border: 1px solid rgb(234, 234, 234);
+    margin: 30px 30px;
+}
+
+.customer-profile {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: -10px;
+}
+
+.dp {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.dp img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.bio {
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.bio p {
+    font-size: 13px;
+}

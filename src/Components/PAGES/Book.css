@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.book-container{
+    height: 850px;
+}
+.book-top{
+    height: 460px;
+    background-color:rgb(248, 248, 248);
+
+}
+.book-bottom{
+    height: 400px;
+    background-color: red;
+}
+.book-bottom img{
+    height: 400px;
+    width: 100%;
+}
+.book-head{
+    font-size: 60px;
+    padding-top: 100px;
+    font-weight: bold;
+    text-align: center;color: rgb(81, 81, 81);
+}
+.book-para{
+    width: 550px;
+    text-align: center;
+    margin: 0px 350px;
+    color: gray;
+}
+.book-detail{
+   
+    padding-top: 30px;
+    width: 500px;
+    margin: -30px 20px;
+    height: 350px;
+    position: absolute;
+    background-color: white;
+    left: 370px;
+    top: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px  rgb(219, 219, 219) !important;
+}
+.inputs{
+    display: flex;
+    justify-content: space-around !important;
+}
+
+
+
+.first-input input{
+    width: 220px;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(215, 215, 215);
+}
+.first-input label{
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+.first-select label{
+    font-size: 15px !important;
+   
+}
+.first-select{
+    margin-top: 20px;
+}
+.first-select select{
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(215, 215, 215);
+    padding-left: 10px;
+}
+.selects{
+    display: flex;
+    justify-content: space-around !important;
+}
+.first-select select option{
+    background-color: white;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    border: none !important;
+}
+.first-select .date-section{
+    width: 220px;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(215, 215, 215);
+}
+.person .first-person select{
+    width: 470px !important;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(215, 215, 215);
+    padding-left: 10px;
+
+
+}
+.first-person select option{
+    background-color: white;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    border: none !important;
+    cursor: pointer !important;
+}
+.person{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.book-btn{
+    width: 470px !important;
+    height: 40px;
+    margin-left:15px ;
+    margin-top: 20px;
+    background-color: brown;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.40s;
+
+}
+
+.book-btn:hover{
+    background-color: white;
+    color: brown;
+    transition: 0.40s;
+    border: 1px solid brown;
+}
+
+

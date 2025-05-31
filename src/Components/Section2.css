@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.background-img{
+    background-image: url(foodback.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-top: 30px;
+}
+.content-1{
+    width: 400px;
+    height: 200px;
+    padding-top: 200px;
+    margin-left: 420px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: rgb(53, 53, 53);
+}
+.mini-content-1{
+    width: 450px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 390px;
+}
+.buttons-1{
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    height: 60px;
+    margin-top: 80px;
+    margin-left: 450px;
+    
+}
+.buttons-1 button{
+    width: 160px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    background-color: brown;
+    color: white;cursor: pointer;
+    font-weight: bold;
+    transition: 0.45s;
+
+}
+.buttons-1 button:hover{
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    border: 1px solid brown;
+    transition: 0.45s;
+}
+.custom{
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+.custom:hover{
+    color:white !important;
+    background-color: brown !important;
+    border: none !important;
+}

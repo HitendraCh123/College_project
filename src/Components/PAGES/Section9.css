@@ -1,0 +1,120 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.container9{
+    height: 550px;
+    background-color: rgb(43, 43, 43);
+}
+.container9-child{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content-1{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 300px;height: 100px;
+}
+.name{
+    margin-left: 20px;
+}
+.footer-para{
+    width: 250px;
+    font-size: 14px;
+    margin: 0px 35px;
+    color: gray;
+}
+.footer-logo-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.icon-container{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: brown;
+    transition: 0.50s;
+}
+.icon-container:hover{
+  transform: translateY(-7px);
+  transition: 0.50s;
+  box-shadow: 0px 1px 15px white;
+
+}
+.icon-container a i{
+    color: white;
+    margin: 8px 8px;
+    font-size: 15px;
+}
+.footer-content-2{
+    width: 230px;
+    height: 400px;
+}
+.footer-content-3{
+    width: 400px;
+    height: 400px;
+}
+.content-head{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.home{
+    text-align: center;
+    padding-top: 20px;color: rgb(241, 241, 241);
+    transition: 0.50s;
+    font-size: 15px;
+
+}
+.home:hover{
+    color: brown;
+    transition: 0.50s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.content3-head{
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.footer-card-img{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+
+}
+.footer-img{
+    width: 195px;
+    height: 150px;
+}
+.footer-img img{
+    width: 195px;
+    height: 150px;
+}
+.footer-line{
+    border: 1px solid rgb(54, 54, 54);
+    margin-top: 80px;
+    
+}
+.copy-right{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(208, 207, 207);
+}
