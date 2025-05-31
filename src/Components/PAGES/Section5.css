@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.container5{
+    height: 550px;
+}
+.mainhead{
+    width: 500px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 100px;
+    line-height: 40px;
+    color: rgb(45, 45, 45);
+}
+.collection-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    margin-top: 50px !important;
+    margin: 5px 70px;
+}
+.cards{
+    width: 240px;
+    height: 400px;
+}
+.img-third{
+    width: 254px !important;
+    height: 270px;
+    transition: 0.40s !important;
+
+}
+.img-third:hover{
+    transform: scale(1.060) !important;
+    transition: 0.40s !important;
+    cursor: pointer;
+
+}
+.cards .hover{
+    width: 240px;
+    height: 270px;
+    transition: 0.40s !important;
+}
+ .hover:hover{
+    transform: scale(1.060) !important;
+    transition: 0.40s !important;
+    cursor: pointer;
+
+}
+.img-heading{
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+    padding-top: 10px;
+}
+.img-paragraph{
+    font-size: 13px;
+    padding-top: 12px;
+    color: rgb(73, 73, 73);
+}
